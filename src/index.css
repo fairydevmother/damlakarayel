@@ -163,7 +163,7 @@ hr {
  
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
   body {
     margin: 0;
     padding: 0;
@@ -172,6 +172,7 @@ hr {
   }
  .navbar{
   justify-content: center !important;
+  
  }
   .container {
     background: radial-gradient(circle, rgba(28, 27, 27, 0.835) 0%, rgba(27,76,87,1) 84%);
