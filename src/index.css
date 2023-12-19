@@ -3,6 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Tüm ögelerde border-box kullanımını ayarla */
+}
 
 body {
   margin: 0;
@@ -157,10 +162,13 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
- 
- .body{
+  body {
+    margin: 0;
+    padding: 0;
+    
   font-size: smaller;
- }
+  }
+ 
   .container {
     background: radial-gradient(circle, rgba(28, 27, 27, 0.835) 0%, rgba(27,76,87,1) 84%);
     color: #ffffff;

@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
        <img src={logo} className="App-logo" alt="logo" />
+       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 
    <nav className='navbar'>
         
