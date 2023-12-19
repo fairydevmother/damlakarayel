@@ -8,6 +8,7 @@
   padding: 0;
   box-sizing: border-box; /* Tüm ögelerde border-box kullanımını ayarla */
   overflow-x: hidden;
+  text-align: center;
 }
 
 body {
@@ -178,7 +179,9 @@ hr {
     padding: 1em;
     text-align: center;
   }
-  
+  .footer-content{
+    padding: 15px;
+  }
   .avatar img {
     border-radius: 50%;
     max-width: 100%;
